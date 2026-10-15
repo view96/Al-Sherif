@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#0284c7" />
+      <stop offset="100%" stopColor="#0b2545" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#00a896" />
+      <stop offset="100%" stopColor="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded App Icon Background -->
+  <rect width="128" height="128" rx="28" fill="url(#favGrad)" />
+
+  <!-- Industrial Water Tank Silhouette -->
+  <rect x="42" y="34" width="44" height="52" rx="8" fill="#ffffff" />
+  <rect x="52" y="26" width="24" height="10" rx="3" fill="#38bdf8" />
+  
+  <!-- Tank Horizontal Ribs -->
+  <line x1="42" y1="48" x2="86" y2="48" stroke="#0284c7" strokeWidth="3" />
+  <line x1="42" y1="62" x2="86" y2="62" stroke="#0284c7" strokeWidth="3" />
+  <line x1="42" y1="74" x2="86" y2="74" stroke="#0284c7" strokeWidth="3" />
+
+  <!-- Water Wave / Dynamic Ribbon at Bottom -->
+  <path d="M22 96 C42 84 64 104 86 92 C98 86 112 88 116 94 C104 106 82 108 64 102 C46 96 32 104 22 96 Z" fill="url(#accentGrad)" />
+  <circle cx="94" cy="40" r="4" fill="#38bdf8" />
+</svg>

@@ -1,0 +1,8 @@
+# robots.txt for El Sherif Tanks (شركة الشريف للخزانات)
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemaps
+Sitemap: https://elsheriftanks.com/sitemap.xml
